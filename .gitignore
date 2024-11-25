@@ -1,1 +1,5 @@
 .ssh/
+*.rs
+target/
+Cargo.lock
+Cargo.toml
