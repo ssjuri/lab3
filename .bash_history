@@ -452,3 +452,325 @@ g++ student_map.cpp -o student_map
 nano student_map.cpp
 g++ student_map.cpp -o student_map
 ./student_map
+sudo apt update
+sudo apt install -y rustc cargo
+nano matrix_add.rs
+rustc matrix_add.rs
+nano matrix_add.rs
+rustc matrix_add.rs
+./matrix_add
+nano file_dir_operations.rs
+rustc file_dir_operations.rs
+nano file_dir_operations.rs
+rustc file_dir_operations.rs
+./file_dir_operations
+nano file_dir_operations.rs
+nano ls_recursive.rs
+rustc ls_recursive.rs
+./ls_recursive
+C:/Users/Administrator/Desktop/3학년
+디렉토리 경로를 입력하세요:
+C:\\Users\\Administrator\\Desktop\\3학년
+C:/Users/Administrator/Desktop/3학년
+C:\\Users\\Administrator\\Desktop\\3학년
+rustc ls_recursive.rs
+./ls_recursive
+rustc ls_recursive.rs
+./ls_recursive
+nano ls_recursive.rs
+rustc ls_recursive.rs
+./ls_recursive
+nano ls_recursive.rs
+rustc ls_recursive.rs
+./ls_recursive
+rustc ls_recursive.rs
+./ls_recursive
+nano ls_recursive.rs
+sudo apt update
+sudo apt install git
+pwd
+cd /root
+git init
+git remote add origin https://github.com/ssjuri/lab3.git
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/ssjuri/lab3.git
+git push -u origin main
+cd /root
+git init
+git remote add origin https://github.com/ssjuri/lab3.git
+git add .
+git commit -m "First commit"
+git push -u origin main
+git push -u origin master
+git branch
+git checkout -b main  # main 브랜치 생성
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git reset HEAD~1
+git rm --cached .ssh/id_rsa
+git commit --amen
+git push -f origin main
+git init
+git add .
+git add root
+git reset HEAD~1
+git rm --cached .ssh/id_rsa
+git commit --amend
+echo ".ssh/" >> .gitignore
+git add .gitignore
+git commit -m "Add .gitignore to exclude sensitive files"
+git push -f origin main
+nano typing_practice.rs
+rustc typing_practice.rs
+nano typing_practice.rs
+rustc typing_practice.rs
+./typing_practice
+nano typing_practice.rs
+nano process_runner.rs
+rustc process_runner.rs
+./process_runner
+nano async_process_runner.rs
+rustc async_process_runner.rs
+./async_process_runner
+nano run_command.rs
+rustc run_command.rs
+./run_command "ls -la"
+nano Cargo.toml
+cargo run
+cargo build
+nano Cargo.toml
+cargo build
+mkdir src
+nano src/main.rs
+nano Cargo.toml
+cargo build
+cargo run
+nano signal_example.rs
+cargo run
+cargo build
+cargo run
+cargo build
+cargo run
+nano Cargo.toml
+cargo build
+cargo run
+cargo build
+cargo run
+nano Cargo.toml
+nano signal_example.rs
+cargo run
+cargo clean
+cargo build
+cargo run
+cargo update -p signal-hook
+nano signal_example.rs
+cargo run
+ps aux | grep signal_example
+kill -SIGINT <PID>
+kill -SIGINT 1234
+cargo run
+ps aux | grep signal_example
+kill -SIGINT 1147
+ps aux | grep -v grep | grep signal_example
+ps aux | grep signal_example
+ps aux | grep -v grep | grep signal_example
+cargo run
+ps aux | grep -v grep | grep signal_example
+kill -SIGINT <PID>
+ps aux | grep signal_example
+ps aux | grep -v grep | grep signal_example
+nano signal_example.rs
+ps aux | grep -v grep | grep signal_example
+ps aux | grep signal_example
+cargo run
+ps aux | grep signal_example
+ps aux | grep -v grep | grep signal_example
+nano signal_example.rs
+ps aux | grep signal_example
+cargo run
+cargo build
+cargo run
+ps aux | grep signal_example
+kill -SIGINT 1189
+nano signal_example.c
+gcc signal_example.c -o signal_example
+./signal_example
+nano pipe_example.c
+gcc pipe_example.c -o pipe_example
+./pipe_example
+nano msg_queue_example.c
+gcc msg_queue_example.c -o msg_queue_example
+./msg_queue_example
+nano msg_queue_example.c
+gcc msg_queue_example.c -o msg_queue_example
+./msg_queue_example
+sysctl -a | grep msg
+nano msg_queue_example.c
+gcc msg_queue_example.c -o msg_queue_example
+./msg_queue_example
+nano msg_queue_example.c
+nano msg_queue_chat.c
+gcc msg_queue_chat.c -o msg_queue_chat
+./msg_queue_chat
+nano msg_queue_chat.c
+gcc msg_queue_chat.c -o msg_queue_chat
+./msg_queue_chat
+nano msg_queue_chat.c
+gcc msg_queue_chat.c -o msg_queue_chat
+./msg_queue_chat
+nano msg_queue_chat.c
+wsl --list --verbose
+ipcs -q
+sudo sysctl -a | grep msg
+sudo sysctl -w kernel.msgmni=1024
+sudo sysctl -w kernel.msgmax=65536
+lsmod | grep msg
+sudo modprobe msg
+wsl --list --verbose
+nano msg_queue_chat.c
+nano message_queue_server.c
+nano message_queue_client.c
+gcc message_queue_server.c -o message_queue_server
+gcc message_queue_client.c -o message_queue_client
+./message_queue_server
+./message_queue_client
+nano message_queue_server.c
+nano message_queue_client.c
+gcc message_queue_server.c -o message_queue_server
+./message_queue_server
+gcc message_queue_client.c -o message_queue_client
+./message_queue_client
+nano server.c
+nano client.c
+gcc server.c -o server
+gcc client.c -o client
+./server
+./client
+nano server.c
+nano client.c
+gcc server.c -o server
+gcc client.c -o client
+./server
+./client
+nano server.c
+nano client.c
+gcc server.c -o server
+gcc client.c -o client
+./server
+./client
+nano server.c
+nano chat_program.c
+gcc -o chat_program chat_program.c -lpthread
+./chat_program
+gcc -o chat_program chat_program.c -lpthread
+./chat_program
+gcc chat_program.c -o  chat_program -lpthread
+./chat_program
+gcc chat_program.c -o chat_program -lpthread -lrt
+./chat_program
+gcc chat_program.c -o chat_program -lpthread
+./chat_program
+nano chat_program.c
+nano chat_sender.c
+nano chat_receiver.c
+gcc -o chat_sender chat_sender.c -lrt
+gcc -o chat_receiver chat_receiver.c -lrt
+./chat_receiver
+./chat_sender
+sudo apt update
+sudo apt install librt-dev
+gcc -o chat_sender chat_sender.c -lrt
+gcc -o chat_receiver chat_receiver.c -lrt
+grep CONFIG_POSIX_MQUEUE /boot/config-$(uname -r)
+uname -r
+sudo apt update
+sudo apt upgrade
+nano chat_sender.c
+nano chat_receiver.c
+gcc -o chat_sender chat_sender.c
+gcc -o chat_receiver chat_receiver.c
+./chat_receiver
+./chat_sender
+nano file_copy.c
+gcc -o file_copy file_copy.c
+./file_copy
+gcc -o file_copy file_copy.c
+nano file_copy.c
+gcc -o file_copy file_copy.c
+echo "Hello, this is a test file!" > source.txt
+./file_copy
+cat destination.txt
+nano file_copy.c
+nano chat_program.c
+nano myshell.c
+gcc -o myshell myshell.c
+./myshell
+pwd
+cd /path/to/dir
+cd "C:\Users\Administrator\Desktop\3학년"
+cd C:\Users\Administrator\Desktop\3학년
+cd C:\Users\Administrator\Desktop
+cd /mnt/c/Users/Administrator/Desktop/3학년
+cd --
+mkdir new_dir
+gcc -o myshell myshell.c
+./myshell
+git push origin main
+git add .gitignore
+git commit -m "Add .gitignore to exclude sensitive files"
+echo "*.rs" >> .gitignore
+echo "target/" >> .gitignore
+echo "Cargo.lock" >> .gitignore
+echo "Cargo.toml" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to exclude untracked files"
+git push -f origin main
+git status
+git log
+git add .
+git commit -m "Add untracked files"
+git push origin main
+nano 12
+nano my_shell.py
+chmod +x my_shell.py
+./my_shell.py
+python3 my_shell.py
+nano my_shell.py
+chmod +x my_shell.py
+./my_shell.py
+python3 my_shell.py
+nano my_shell.py
+chmod +x my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
+nano my_shell.py
+./my_shell.py
